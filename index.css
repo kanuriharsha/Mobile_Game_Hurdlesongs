@@ -7,7 +7,7 @@ body {
 #game {
   width: 100vw;
   height: 100vh;
-  background: url('https://i.postimg.cc/Mf0wf5KD/bg.png') no-repeat center center;
+  background: url('https://raw.githubusercontent.com/kanuriharsha/songs/4a18100cbfb7fbfde0e7db8b1af5bb8efa4c2234/jungle%20pass.jpg') no-repeat center center;
   background-size: contain;
   position: relative;
   overflow: hidden;
