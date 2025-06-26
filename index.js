@@ -97,9 +97,9 @@ function startGame() {
   hurdleTimers = [];
   score = 0;
   scoreDisplay.textContent = `Score: ${score}`;
-  speed = 5;
+  // speed = 5;
  backgroundMusic.currentTime = 0;
-// backgroundMusic.playbackRate = 3.0; // ⬅️ This speeds up the music
+backgroundMusic.playbackRate = 0.9; // ⬅️ This speeds up the music
 backgroundMusic.play()
   .then(() => logStatus("Normal background music playing"))
   .catch(e => logStatus("Normal music blocked: " + e));
