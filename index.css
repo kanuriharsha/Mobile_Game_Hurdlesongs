@@ -7,11 +7,13 @@ body {
 #game {
   width: 100vw;
   height: 100vh;
-  background: url('https://raw.githubusercontent.com/kanuriharsha/songs/4a18100cbfb7fbfde0e7db8b1af5bb8efa4c2234/jungle%20pass.jpg') no-repeat center center;
-  background-size: contain;
+  background: url('https://raw.githubusercontent.com/kanuriharsha/songs/4a18100cbfb7fbfde0e7db8b1af5bb8efa4c2234/jungle%20pass.jpg') repeat-x center bottom;
+  background-size: cover;
+  image-rendering: pixelated; /* Keeps pixel art crisp */
   position: relative;
   overflow: hidden;
 }
+
 
 
 #player {
