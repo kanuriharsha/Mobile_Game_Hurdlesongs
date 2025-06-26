@@ -99,7 +99,7 @@ function startGame() {
   scoreDisplay.textContent = `Score: ${score}`;
   // speed = 5;
  backgroundMusic.currentTime = 0;
-backgroundMusic.playbackRate = 1.1; // ⬅️ This speeds up the music
+backgroundMusic.playbackRate = 0.98; // ⬅️ This speeds up the music
 backgroundMusic.play()
   .then(() => logStatus("Normal background music playing"))
   .catch(e => logStatus("Normal music blocked: " + e));
