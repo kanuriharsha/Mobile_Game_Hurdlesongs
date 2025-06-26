@@ -152,5 +152,6 @@ controlBtn.addEventListener('click', () => {
     pauseGame();
   } else {
     resumeGame();
+    
   }
 });
