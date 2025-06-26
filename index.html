@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temple Run Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game">
+    <div id="player"></div>
+    <button id="controlBtn">Start</button>
+    <div id="scoreDisplay">Score: 0</div>
+
+    <!-- Game Over Overlay -->
+    <div id="gameOverOverlay">
+      <div id="gameOverBox">
+        <h1>Game Over</h1>
+        <button id="retryBtn">Retry</button>
+      </div>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="backgroundMusic" loop preload="auto">
+      <source src="https://github.com/kanuriharsha/songs/raw/refs/heads/main/Bella%20Ciao%20-%20(Original).mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="jumpMusic" preload="auto">
+      <source src="https://raw.githubusercontent.com/kanuriharsha/songs/main/flap-101soundboards.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="hitMusic" preload="auto">
+      <source src="https://raw.githubusercontent.com/kanuriharsha/songs/main/die-101soundboards.mp3" type="audio/mpeg" />
+    </audio>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
