@@ -7,11 +7,12 @@ body {
 #game {
   width: 100vw;
   height: 100vh;
-  background: url('https://i.postimg.cc/Mf0wf5KD/bg.png') repeat-x;
-  background-size: cover;
+  background: url('https://i.postimg.cc/Mf0wf5KD/bg.png') no-repeat center center;
+  background-size: contain;
   position: relative;
   overflow: hidden;
 }
+
 
 #player {
   width: 80px;
